@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blm"
+
+            app:layout_constraintHeight_percent=".60"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/item_corner_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/star_big_off"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/item_text_interested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placeholder interested in"
+            android:textColor="@android:color/darker_gray"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_image"/>
+
+        <TextView
+            android:id="@+id/item_text_jt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flutter Developer"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_text_interested"/>
+
+        <TextView
+            android:id="@+id/item_text_locale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="location "
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_text_jt"/>
+
+        <TextView
+            android:id="@+id/item_text_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remotely"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toEndOf="@id/item_text_locale"
+            app:layout_constraintTop_toBottomOf="@id/item_text_jt"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

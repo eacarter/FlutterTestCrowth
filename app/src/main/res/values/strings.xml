@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FlutterTestCrowth</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_explorer">Explorer</string>
+    <string name="title_net_of_nets">Net of Nets</string>
+    <string name="title_activity">Activity</string>
+    <string name="post_a_job">Post a Job</string>
+    <string name="header_explorer">Explorer</string>
+    <string name="Home_senior_project_manager_london">Senior Project Manager, London</string>
+    <string name="home_help_others">Help Others</string>
+    <string name="home_find_jobs">Find Jobs</string>
+    <string name="home_find_candidates">Find Candidates</string>
+    <string name="home_help_friends_and_get_paid">Help friends and get paid</string>
+    <string name="placeholder_text">PlaceHolder Text</string>
+</resources>
